@@ -5,4 +5,6 @@ def square_array(array)
   squared = num ** 2
   arr << squared
   array.each { |num| puts arr }
+  squared = num ** 2
+  arr << squared
 end
